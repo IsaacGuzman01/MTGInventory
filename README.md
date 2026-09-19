@@ -102,6 +102,7 @@ separate, trackable stacks.
 
 ## Ideas for extending this
 
+- Add a less manual data entry method. Currently exploring Manabox integration.
 - Track individual sale/purchase prices and dates for a running P&L
 - Add a `decks` table + `deck_cards` join table to track which cards are in which decks
 - Add a `--json` output mode to `list` for piping into other tools
