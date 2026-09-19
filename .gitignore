@@ -1,0 +1,29 @@
+# Local database (your actual collection data — don't commit this)
+*.db
+*.sqlite
+*.sqlite3
+ 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+ 
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+ 
+# Exports you generate locally
+*.csv
+ 
+# macOS
+.DS_Store
+ 
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+ 
