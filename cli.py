@@ -20,7 +20,7 @@ import db
 import scryfall 
 
 BANNER = r"""
-__  __ _____ ____   ___ _   ___     _______ _   _ _____ ___  ______   __
+ __  __ _____ ____   ___ _   ___     _______ _   _ _____ ___  ______   __
 |  \/  |_   _/ ___| |_ _| \ | \ \   / / ____| \ | |_   _/ _ \|  _ \ \ / /
 | |\/| | | || |  _   | ||  \| |\ \ / /|  _| |  \| | | || | | | |_) \ V / 
 | |  | | | || |_| |  | || |\  | \ V / | |___| |\  | | || |_| |  _ < | |  
@@ -71,6 +71,7 @@ def cmd_list(args):
         print("No matching cards in inventory.")
         return
     header = f"{'ID':<5} {'QTY':<4} {'NAME':<30} {'SET':<6} {'COND':<5} {'FOIL':<5} {'PRICE':<8}"
+    print(BANNER)
     print(header)
     print("-" * len(header))
     for r in rows:
